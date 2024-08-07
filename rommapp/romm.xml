@@ -31,7 +31,7 @@
    <Category>MediaApp:Other</Category>
    <Date>2023-08-06</Date>
    <WebUI>http://[IP]:[PORT:8080]</WebUI>
-   <TemplateURL>https://raw.githubusercontent.com/rommapp/unraid-templates/main/romm.xml</TemplateURL>
+   <TemplateURL>https://raw.githubusercontent.com/rommapp/unraid-templates/main/rommapp/romm.xml</TemplateURL>
    <Icon>https://raw.githubusercontent.com/rommapp/romm/master/.github/resources/isotipo.png</Icon>
    <ExtraParams/>
    <PostArgs/>
