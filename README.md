@@ -1,2 +1,3 @@
-# template-repo
-A template repository for basing all new projects
+# RomM Unraid XML Template
+
+The source repo of the RomM plugin for the Unraid Community Apps store
