@@ -54,16 +54,16 @@
    <Config Name="Library" Target="/romm/library/" Default="/romm/library" Mode="rw" Description="Game files" Type="Path" Display="always" Required="true" Mask="false"/>
    <Config Name="Resources" Target="/romm/resources/" Default="" Mode="rw" Description="Metadata storage (covers, screenshots, etc.)" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/romm/resources</Config>
    <Config Name="Assets" Target="/romm/assets/" Default="" Mode="rw" Description="Uploaded saves, states, etc." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/romm/assets</Config>
-   <Config Name="IGDB_CLIENT_ID" Target="IGDB_CLIENT_ID" Default="" Mode="" Description="IGDB Client ID" Type="Variable" Display="always" Required="false" Mask="false"/>
-   <Config Name="IGDB_CLIENT_SECRET" Target="IGDB_CLIENT_SECRET" Default="" Mode="" Description="IGDB Client Secret" Type="Variable" Display="always" Required="false" Mask="true"/>
-   <Config Name="STEAMGRIDDB_API_KEY" Target="STEAMGRIDDB_API_KEY" Default="" Mode="" Description="SteamGridDB API Key" Type="Variable" Display="always" Required="false" Mask="true"/>
-   <Config Name="MOBYGAMES_API_KEY" Target="MOBYGAMES_API_KEY" Default="" Mode="" Description="MobyGames API Key" Type="Variable" Display="always" Required="false" Mask="true"/>
    <Config Name="DB_HOST" Target="DB_HOST" Default="mariadb" Mode="" Description="Database host" Type="Variable" Display="always" Required="true" Mask="false"/>
    <Config Name="DB_PORT" Target="DB_PORT" Default="3306" Mode="" Description="Database port" Type="Variable" Display="always" Required="true" Mask="false"/>
    <Config Name="DB_USER" Target="DB_USER" Default="romm" Mode="" Description="Database user" Type="Variable" Display="always" Required="true" Mask="false"/>
    <Config Name="DB_NAME" Target="DB_NAME" Default="romm" Mode="" Description="Database name" Type="Variable" Display="always" Required="true" Mask="false"/>
    <Config Name="DB_PASSWD" Target="DB_PASSWD" Default="" Mode="" Description="Database password for DB_USER" Type="Variable" Display="always" Required="true" Mask="true"/>
-   <Config Name="ROMM_AUTH_SECRET_KEY" Target="ROMM_AUTH_SECRET_KEY" Default="" Mode="" Description="Generate a key with `openssl rand -hex 32`" Type="Variable" Display="advanced" Required="false" Mask="true"/>
+   <Config Name="ROMM_AUTH_SECRET_KEY" Target="ROMM_AUTH_SECRET_KEY" Default="" Mode="" Description="Generate a key with `openssl rand -hex 32`" Type="Variable" Display="always" Required="true" Mask="true"/>
+   <Config Name="IGDB_CLIENT_ID" Target="IGDB_CLIENT_ID" Default="" Mode="" Description="IGDB Client ID" Type="Variable" Display="always" Required="false" Mask="false"/>
+   <Config Name="IGDB_CLIENT_SECRET" Target="IGDB_CLIENT_SECRET" Default="" Mode="" Description="IGDB Client Secret" Type="Variable" Display="always" Required="false" Mask="true"/>
+   <Config Name="STEAMGRIDDB_API_KEY" Target="STEAMGRIDDB_API_KEY" Default="" Mode="" Description="SteamGridDB API Key" Type="Variable" Display="always" Required="false" Mask="true"/>
+   <Config Name="MOBYGAMES_API_KEY" Target="MOBYGAMES_API_KEY" Default="" Mode="" Description="MobyGames API Key" Type="Variable" Display="always" Required="false" Mask="true"/>
    <Config Name="ENABLE_RESCAN_ON_FILESYSTEM_CHANGE" Target="ENABLE_RESCAN_ON_FILESYSTEM_CHANGE" Default="false" Mode="" Description="Run a scan when the filesystem changes" Type="Variable" Display="advanced" Required="false" Mask="false"/>
    <Config Name="RESCAN_ON_FILESYSTEM_CHANGE_DELAY" Target="RESCAN_ON_FILESYSTEM_CHANGE_DELAY" Default="5" Mode="" Description="Delay in seconds before running a scan" Type="Variable" Display="advanced" Required="false" Mask="false"/>
    <Config Name="ENABLE_SCHEDULED_RESCAN" Target="ENABLE_SCHEDULED_RESCAN" Default="false" Mode="" Description="Run a scan on a schedule" Type="Variable" Display="advanced" Required="false" Mask="false"/>
