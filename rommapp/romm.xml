@@ -3,7 +3,7 @@
    <Name>romm</Name>
    <Repository>rommapp/romm:latest</Repository>
    <Registry>https://hub.docker.com/r/rommapp/romm</Registry>
-   <Network>bridge</Network>
+   <Network>romm_net</Network>
    <MyIP/>
    <Shell>sh</Shell>
    <Privileged>false</Privileged>
