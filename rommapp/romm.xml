@@ -9,24 +9,22 @@
    <Privileged>false</Privileged>
    <Support>https://github.com/rommapp/romm/issues</Support>
    <Project>https://github.com/rommapp/romm</Project>
-   <Overview>A beautiful, powerful, self-hosted rom manager</Overview>
-   <Description>
+   <Overview>
+   A beautiful, powerful, self-hosted rom manager
+
    RomM (ROM Manager) allows you to scan, enrich, and browse your game collection with a clean and resonsive interface. With support for multiple platforms, various naming schemes, and custom tags, RomM is a must-have for anyone who plays on emulators.
    
    Features:
-   - Scans your existing games library and enhances it with metadata from IGDB and MobyGames
-   - Supports a large number of platforms
-   - Play games directly from the browser using EmulatorJS
-   - Share your library with friends while limiting access and permissions
-   - Supports MAME, Nintendo Switch, and Sony Playstation naming schemes
-   - Detects and groups multifile games (e.g. PS1 games with multiple CDs)
-   - Can parse tags in filenames (e.g. (E), (USA), (rev v1), etc.)
-   - View, upload, update, and delete games from any modern web browser
+   • Scans your existing games library and enhances it with metadata from IGDB and MobyGames
+   • Supports a large number of platforms
+   • Play games directly from the browser using EmulatorJS
+   • Share your library with friends while limiting access and permissions
+   • View, upload, update, and delete games from any modern web browser
    
    Before starting, generate your IGDB and Mobygames API keys: https://github.com/rommapp/romm/wiki/Generate-API-Keys
    
    Instructions for setting up RomM can be found at https://github.com/rommapp/romm/wiki/Running-on-Unraid
-   </Description>
+   </Overview>
    <ExtraSearchTerms>rom emulation gaming</ExtraSearchTerms>
    <Beta>False</Beta>
    <Category>MediaApp:Other</Category>
