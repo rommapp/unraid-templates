@@ -13,16 +13,16 @@
    A beautiful, powerful, self-hosted rom manager
 
    RomM (ROM Manager) allows you to scan, enrich, and browse your game collection with a clean and resonsive interface. With support for multiple platforms, various naming schemes, and custom tags, RomM is a must-have for anyone who plays on emulators.
-   
+
    Features:
    • Scans your existing games library and enhances it with metadata from IGDB and MobyGames
    • Supports a large number of platforms
    • Play games directly from the browser using EmulatorJS
    • Share your library with friends while limiting access and permissions
    • View, upload, update, and delete games from any modern web browser
-   
+
    Before starting, generate your IGDB and Mobygames API keys: https://github.com/rommapp/romm/wiki/Generate-API-Keys
-   
+
    Instructions for setting up RomM can be found at https://github.com/rommapp/romm/wiki/Running-on-Unraid
    </Overview>
    <ExtraSearchTerms>rom emulation gaming</ExtraSearchTerms>
@@ -35,8 +35,8 @@
    <ExtraParams/>
    <PostArgs/>
    <CPUset/>
-   <DonateText>Buy the team a coffee</DonateText>
-   <DonateLink>https://buymeacoffee.com/zurdi15</DonateLink>
+   <DonateText>Support the team</DonateText>
+   <DonateLink>https://opencollective.com/romm</DonateLink>
    <Requires>
    MariaDB
    </Requires>
@@ -46,7 +46,7 @@
    <Screenshot>https://raw.githubusercontent.com/rommapp/romm/master/.github/resources/screenshots/search.png</Screenshot>
    <Changes>
    [center][font size=4]RomM Change Log[/font][/center]
-   For a comprehensive list of changes, see https://github.com/rommapp/romm/releases&#xD;  
+   For a comprehensive list of changes, see https://github.com/rommapp/romm/releases&#xD;
    [b]07-08-2024:[/b] Offical RomM template released in Unraid Community Applications store &#xD;
    </Changes>
    <Config Name="Port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
