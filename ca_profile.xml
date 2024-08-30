@@ -2,9 +2,9 @@
 <Maintainer>
   <Icon>https://raw.githubusercontent.com/rommapp/romm/release/.github/resources/isotipo.png</Icon>
   <Profile>The team behind RomM, the beautiful, powerful, self-hosted rom manager.</Profile>
-  <DonateLink>https://buymeacoffee.com/zurdi15</DonateLink>
-  <DonateText>Consider supporting the project!</DonateText>
-  <WebPage>https://romm.app/</WebPage>
+  <DonateLink>ca_profile.xml</DonateLink>
+  <DonateText>Support the team</DonateText>
+  <WebPage>https://opencollective.com/romm</WebPage>
   <Discord>https://discord.gg/P5HtHnhUDH</Discord>
   <Forum>https://github.com/rommapp/romm/issues</Forum>
 </Maintainer>
