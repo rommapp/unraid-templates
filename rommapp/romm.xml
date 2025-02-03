@@ -31,7 +31,7 @@
    <Date>2023-08-06</Date>
    <WebUI>http://[IP]:[PORT:8080]</WebUI>
    <TemplateURL>https://raw.githubusercontent.com/rommapp/unraid-templates/main/rommapp/romm.xml</TemplateURL>
-   <Icon>https://raw.githubusercontent.com/rommapp/romm/master/.github/resources/isotipo.png</Icon>
+   <Icon>https://raw.githubusercontent.com/rommapp/romm/release/.github/resources/isotipo.png</Icon>
    <ExtraParams/>
    <PostArgs/>
    <CPUset/>
@@ -40,10 +40,10 @@
    <Requires>
    MariaDB
    </Requires>
-   <Screenshot>https://raw.githubusercontent.com/rommapp/romm/master/.github/resources/screenshots/home.png</Screenshot>
-   <Screenshot>https://raw.githubusercontent.com/rommapp/romm/master/.github/resources/screenshots/gallery.png</Screenshot>
-   <Screenshot>https://raw.githubusercontent.com/rommapp/romm/master/.github/resources/screenshots/details.png</Screenshot>
-   <Screenshot>https://raw.githubusercontent.com/rommapp/romm/master/.github/resources/screenshots/search.png</Screenshot>
+   <Screenshot>https://raw.githubusercontent.com/rommapp/romm/release/.github/resources/screenshots/home.png</Screenshot>
+   <Screenshot>https://raw.githubusercontent.com/rommapp/romm/release/.github/resources/screenshots/gallery.png</Screenshot>
+   <Screenshot>https://raw.githubusercontent.com/rommapp/romm/release/.github/resources/screenshots/details.png</Screenshot>
+   <Screenshot>https://raw.githubusercontent.com/rommapp/romm/release/.github/resources/screenshots/search.png</Screenshot>
    <Changes>
    [center][font size=4]RomM Change Log[/font][/center]
    For a comprehensive list of changes, see https://github.com/rommapp/romm/releases&#xD;
