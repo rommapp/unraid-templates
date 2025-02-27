@@ -21,9 +21,9 @@
    • Share your library with friends while limiting access and permissions
    • View, upload, update, and delete games from any modern web browser
 
-   Before starting, generate your IGDB and Mobygames API keys: https://github.com/rommapp/romm/wiki/Generate-API-Keys
+   Before starting, generate your IGDB and Mobygames API keys: https://docs.romm.app/latest/Getting-Started/Generate-API-Keys/
 
-   Instructions for setting up RomM can be found at https://github.com/rommapp/romm/wiki/Unraid-Setup
+   Instructions for setting up RomM can be found at https://docs.romm.app/latest/System-Setup/Unraid-Setup-Guide/
    </Overview>
    <ExtraSearchTerms>rom emulation gaming</ExtraSearchTerms>
    <Beta>False</Beta>
