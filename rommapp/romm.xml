@@ -65,6 +65,8 @@
    <Config Name="IGDB_CLIENT_SECRET" Target="IGDB_CLIENT_SECRET" Default="" Mode="" Description="IGDB Client Secret" Type="Variable" Display="always" Required="false" Mask="true"/>
    <Config Name="STEAMGRIDDB_API_KEY" Target="STEAMGRIDDB_API_KEY" Default="" Mode="" Description="SteamGridDB API Key" Type="Variable" Display="always" Required="false" Mask="true"/>
    <Config Name="MOBYGAMES_API_KEY" Target="MOBYGAMES_API_KEY" Default="" Mode="" Description="MobyGames API Key" Type="Variable" Display="always" Required="false" Mask="true"/>
+   <Config Name="SCREENSCRAPER_USER" Target="SCREENSCRAPER_USER" Default="" Mode="" Description="ScreenScraper Username" Type="Variable" Display="always" Required="false" Mask="false"/>
+   <Config Name="SCREENSCRAPER_PASSWORD" Target="SCREENSCRAPER_PASSWORD" Default="" Mode="" Description="ScreenScraper Password" Type="Variable" Display="always" Required="false" Mask="true"/>
    <Config Name="ENABLE_RESCAN_ON_FILESYSTEM_CHANGE" Target="ENABLE_RESCAN_ON_FILESYSTEM_CHANGE" Default="false" Mode="" Description="Run a scan when the filesystem changes" Type="Variable" Display="advanced" Required="false" Mask="false"/>
    <Config Name="RESCAN_ON_FILESYSTEM_CHANGE_DELAY" Target="RESCAN_ON_FILESYSTEM_CHANGE_DELAY" Default="5" Mode="" Description="Delay in seconds before running a scan" Type="Variable" Display="advanced" Required="false" Mask="false"/>
    <Config Name="ENABLE_SCHEDULED_RESCAN" Target="ENABLE_SCHEDULED_RESCAN" Default="false" Mode="" Description="Run a scan on a schedule" Type="Variable" Display="advanced" Required="false" Mask="false"/>
@@ -75,4 +77,5 @@
    <Config Name="GUNICORN_WORKERS" Target="GUNICORN_WORKERS" Default="2" Mode="" Description="Number of Gunicorn workers" Type="Variable" Display="advanced" Required="false" Mask="false"/>
    <Config Name="DISABLE_CSRF_PROTECTION" Target="DISABLE_CSRF_PROTECTION" Default="false" Mode="" Description="[EXPERTS ONLY] Disable CSRF protection" Type="Variable" Display="advanced" Required="false" Mask="false"/>
    <Config Name="DISABLE_DOWNLOAD_ENDPOINT_AUTH" Target="DISABLE_DOWNLOAD_ENDPOINT_AUTH" Default="false" Mode="" Description="[EXPERTS ONLY] Disable authentication for the download endpoint" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+   <Config Name="KIOSK_MODE" Target="KIOSK_MODE" Default="false" Mode="" Description="Enable kiosk mode" Type="Variable" Display="advanced" Required="false" Mask="false"/>
 </Container>
