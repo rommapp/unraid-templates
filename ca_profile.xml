@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon>https://raw.githubusercontent.com/rommapp/romm/release/.github/resources/isotipo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/rommapp/romm/master/.github/resources/isotipo.png</Icon>
   <Profile>The team behind RomM, the beautiful, powerful, self-hosted rom manager.</Profile>
   <DonateLink>ca_profile.xml</DonateLink>
   <DonateText>Support the team</DonateText>
