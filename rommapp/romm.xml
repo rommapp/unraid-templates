@@ -125,7 +125,4 @@
    <Config Name="SCHEDULED_RETROACHIEVEMENTS_PROGRESS_SYNC_CRON" Target="SCHEDULED_RETROACHIEVEMENTS_PROGRESS_SYNC_CRON" Default="" Mode="" Description="Cron expression for scheduled syncing of Retroachievements progress" Type="Variable" Display="advanced" Required="false" Mask="false"/>
    <Config Name="LOGLEVEL" Target="LOGLEVEL" Default="" Mode="" Description="Logging level for the app" Type="Variable" Display="advanced" Required="false" Mask="false">INFO</Config>
    <Config Name="SENTRY_DSN" Target="SENTRY_DSN" Default="" Mode="" Description="DSN for Sentry error tracking" Type="Variable" Display="advanced" Required="false" Mask="true"/>
-   <!-- <Config Name="ROMM_PORT" Target="ROMM_PORT" Default="8080" Mode="" Description="Port on which the application listens" Type="Variable" Display="always" Required="false" Mask="false">8080</Config>
-   <Config Name="ROMM_BASE_PATH" Target="ROMM_BASE_PATH" Default="/romm" Mode="" Description="Base folder path for library, resources and assets" Type="Variable" Display="always" Required="false" Mask="false">/romm</Config>
-   <Config Name="ROMM_BASE_URL" Target="ROMM_BASE_URL" Default="0.0.0.0" Mode="" Description="Base url for properly display container logs links" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0</Config> -->
 </Container>
