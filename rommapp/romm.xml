@@ -21,7 +21,10 @@
    • Share your library with friends while limiting access and permissions
    • View, upload, update, and delete games from any modern web browser
 
-   Before starting, generate your IGDB and Mobygames API keys: https://docs.romm.app/latest/Getting-Started/Generate-API-Keys/
+   Before starting: 
+   • Generate your IGDB and Mobygames API keys: https://docs.romm.app/latest/Getting-Started/Generate-API-Keys/
+   • A valid config.yml file is required to run the app. Please refer to the instructions at the top of the example config.yml file. The file can be used as-is without making any changes.
+      - https://github.com/rommapp/romm/blob/master/examples/config.example.yml
 
    Instructions for setting up RomM can be found at https://docs.romm.app/latest/System-Setup/Unraid-Setup-Guide/
    </Overview>
